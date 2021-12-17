@@ -1,6 +1,6 @@
 name,parent,value,code,lines
 Origin,,,,
-Type#1 Clone,Origin,4,if(obj == null) return 0;switch(dataType){case SQLTokenizer.BIT:return (obj.equals(Boolean.TRUE)) ? 1 : 0;case SQLTokenizer.INT:case SQLTokenizer.BIGINT:case SQLTokenizer.DOUBLE:,"3477,3484,3500,3507"
+Type#1 Clone,Origin,4,\n if(obj == null) return 0;switch(dataType){case SQLTokenizer.BIT:return (obj.equals(Boolean.TRUE)) ? 1 : 0;case SQLTokenizer.INT:case SQLTokenizer.BIGINT:case SQLTokenizer.DOUBLE:,"3477,3484,3500,3507"
 Type#1 Clone,Origin,4,}}}}package smallsql.database;import java.sql.*;import smallsql.database.language.Language;,"4959,4966,9424,9431"
 Type#1 Clone,Origin,4,case OR:case AND:case NOT:case LIKE:case ISNULL:case ISNOTNULL:,"18071,18077,18105,18111"
 Type#1 Clone,Origin,6,"assertEquals(1,pr.executeUpdate());rs = pr.getGeneratedKeys();assertNotNull(""RETURN_GENERATED_KEYS"", rs);assertEquals(""ColumnCount"",1,rs.getMetaData().getColumnCount());assertEquals(""ColumnCount"",""i"",rs.getMetaData().getColumnName(1));assertRowCount(1,rs);","23991,23997,24004,24010,24017,24023"
